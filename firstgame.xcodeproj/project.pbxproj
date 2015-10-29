@@ -16,6 +16,14 @@
 		BA4C33E51BCF02B0005AA019 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA4C33E31BCF02B0005AA019 /* LaunchScreen.storyboard */; };
 		BA4C33F01BCF02B0005AA019 /* firstgameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4C33EF1BCF02B0005AA019 /* firstgameTests.swift */; };
 		BA4C33FB1BCF02B0005AA019 /* firstgameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4C33FA1BCF02B0005AA019 /* firstgameUITests.swift */; };
+		BA576E651BE1936B004446C8 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = BA576E641BE1936B004446C8 /* background.png */; settings = {ASSET_TAGS = (); }; };
+		BA576E671BE196E8004446C8 /* grid.png in Resources */ = {isa = PBXBuildFile; fileRef = BA576E661BE196E8004446C8 /* grid.png */; settings = {ASSET_TAGS = (); }; };
+		BAF45C931BE221B40029AACD /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = BAF45C911BE221B40029AACD /* pause.png */; settings = {ASSET_TAGS = (); }; };
+		BAF45C941BE221B40029AACD /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = BAF45C921BE221B40029AACD /* play.png */; settings = {ASSET_TAGS = (); }; };
+		BAF45C971BE222040029AACD /* balloon.png in Resources */ = {isa = PBXBuildFile; fileRef = BAF45C951BE222040029AACD /* balloon.png */; settings = {ASSET_TAGS = (); }; };
+		BAF45C981BE222040029AACD /* microscope.png in Resources */ = {isa = PBXBuildFile; fileRef = BAF45C961BE222040029AACD /* microscope.png */; settings = {ASSET_TAGS = (); }; };
+		BAF45C9A1BE2292F0029AACD /* bubble.png in Resources */ = {isa = PBXBuildFile; fileRef = BAF45C991BE2292F0029AACD /* bubble.png */; settings = {ASSET_TAGS = (); }; };
+		BAF45C9C1BE22BD20029AACD /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF45C9B1BE22BD20029AACD /* Tile.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,14 @@
 		BA4C33F61BCF02B0005AA019 /* firstgameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = firstgameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA4C33FA1BCF02B0005AA019 /* firstgameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstgameUITests.swift; sourceTree = "<group>"; };
 		BA4C33FC1BCF02B0005AA019 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA576E641BE1936B004446C8 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		BA576E661BE196E8004446C8 /* grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = grid.png; path = firstgame/grid.png; sourceTree = "<group>"; };
+		BAF45C911BE221B40029AACD /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pause.png; path = firstgame/pause.png; sourceTree = "<group>"; };
+		BAF45C921BE221B40029AACD /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = play.png; path = firstgame/play.png; sourceTree = "<group>"; };
+		BAF45C951BE222040029AACD /* balloon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = balloon.png; path = firstgame/balloon.png; sourceTree = "<group>"; };
+		BAF45C961BE222040029AACD /* microscope.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = microscope.png; path = firstgame/microscope.png; sourceTree = "<group>"; };
+		BAF45C991BE2292F0029AACD /* bubble.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bubble.png; path = firstgame/bubble.png; sourceTree = "<group>"; };
+		BAF45C9B1BE22BD20029AACD /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +97,13 @@
 		BA4C33CA1BCF02B0005AA019 = {
 			isa = PBXGroup;
 			children = (
+				BA576E641BE1936B004446C8 /* background.png */,
+				BA576E661BE196E8004446C8 /* grid.png */,
+				BAF45C911BE221B40029AACD /* pause.png */,
+				BAF45C921BE221B40029AACD /* play.png */,
+				BAF45C951BE222040029AACD /* balloon.png */,
+				BAF45C961BE222040029AACD /* microscope.png */,
+				BAF45C991BE2292F0029AACD /* bubble.png */,
 				BA4C33D51BCF02B0005AA019 /* firstgame */,
 				BA4C33EE1BCF02B0005AA019 /* firstgameTests */,
 				BA4C33F91BCF02B0005AA019 /* firstgameUITests */,
@@ -101,6 +124,7 @@
 		BA4C33D51BCF02B0005AA019 /* firstgame */ = {
 			isa = PBXGroup;
 			children = (
+				BAF45C9B1BE22BD20029AACD /* Tile.swift */,
 				BA4C33D61BCF02B0005AA019 /* AppDelegate.swift */,
 				BA4C33D81BCF02B0005AA019 /* GameScene.sks */,
 				BA4C33DA1BCF02B0005AA019 /* GameScene.swift */,
@@ -238,9 +262,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA4C33D91BCF02B0005AA019 /* GameScene.sks in Resources */,
+				BAF45C941BE221B40029AACD /* play.png in Resources */,
+				BA576E651BE1936B004446C8 /* background.png in Resources */,
+				BAF45C971BE222040029AACD /* balloon.png in Resources */,
 				BA4C33E51BCF02B0005AA019 /* LaunchScreen.storyboard in Resources */,
+				BAF45C981BE222040029AACD /* microscope.png in Resources */,
+				BAF45C931BE221B40029AACD /* pause.png in Resources */,
 				BA4C33E21BCF02B0005AA019 /* Assets.xcassets in Resources */,
 				BA4C33E01BCF02B0005AA019 /* Main.storyboard in Resources */,
+				BAF45C9A1BE2292F0029AACD /* bubble.png in Resources */,
+				BA576E671BE196E8004446C8 /* grid.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +299,7 @@
 				BA4C33DB1BCF02B0005AA019 /* GameScene.swift in Sources */,
 				BA4C33DD1BCF02B0005AA019 /* GameViewController.swift in Sources */,
 				BA4C33D71BCF02B0005AA019 /* AppDelegate.swift in Sources */,
+				BAF45C9C1BE22BD20029AACD /* Tile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -494,6 +526,7 @@
 				BA4C34011BCF02B0005AA019 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA4C34021BCF02B0005AA019 /* Build configuration list for PBXNativeTarget "firstgameTests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +535,7 @@
 				BA4C34041BCF02B0005AA019 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BA4C34051BCF02B0005AA019 /* Build configuration list for PBXNativeTarget "firstgameUITests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +544,7 @@
 				BA4C34071BCF02B0005AA019 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
