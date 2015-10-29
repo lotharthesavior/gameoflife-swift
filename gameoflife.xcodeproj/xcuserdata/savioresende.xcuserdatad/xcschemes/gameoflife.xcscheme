@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BA4C33D21BCF02B0005AA019"
-               BuildableName = "firstgame.app"
-               BlueprintName = "firstgame"
-               ReferencedContainer = "container:firstgame.xcodeproj">
+               BuildableName = "gameoflife.app"
+               BlueprintName = "gameoflife"
+               ReferencedContainer = "container:gameoflife.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BA4C33EA1BCF02B0005AA019"
-               BuildableName = "firstgameTests.xctest"
-               BlueprintName = "firstgameTests"
-               ReferencedContainer = "container:firstgame.xcodeproj">
+               BuildableName = "gameoflifeTests.xctest"
+               BlueprintName = "gameoflifeTests"
+               ReferencedContainer = "container:gameoflife.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BA4C33F51BCF02B0005AA019"
-               BuildableName = "firstgameUITests.xctest"
-               BlueprintName = "firstgameUITests"
-               ReferencedContainer = "container:firstgame.xcodeproj">
+               BuildableName = "gameoflifeUITests.xctest"
+               BlueprintName = "gameoflifeUITests"
+               ReferencedContainer = "container:gameoflife.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BA4C33D21BCF02B0005AA019"
-            BuildableName = "firstgame.app"
-            BlueprintName = "firstgame"
-            ReferencedContainer = "container:firstgame.xcodeproj">
+            BuildableName = "gameoflife.app"
+            BlueprintName = "gameoflife"
+            ReferencedContainer = "container:gameoflife.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BA4C33D21BCF02B0005AA019"
-            BuildableName = "firstgame.app"
-            BlueprintName = "firstgame"
-            ReferencedContainer = "container:firstgame.xcodeproj">
+            BuildableName = "gameoflife.app"
+            BlueprintName = "gameoflife"
+            ReferencedContainer = "container:gameoflife.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BA4C33D21BCF02B0005AA019"
-            BuildableName = "firstgame.app"
-            BlueprintName = "firstgame"
-            ReferencedContainer = "container:firstgame.xcodeproj">
+            BuildableName = "gameoflife.app"
+            BlueprintName = "gameoflife"
+            ReferencedContainer = "container:gameoflife.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
